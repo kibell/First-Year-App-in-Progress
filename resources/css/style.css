@@ -4,8 +4,7 @@
 /*24px h2 tag */
 /* 32px */
 /* 36px */
-/* 40px  h1 tag* /
-$font-size-7xl: 4rem; /*64px */
+/*64px */
 .ink-blue {
   color: #00244e;
 }
@@ -62,8 +61,7 @@ $font-size-7xl: 4rem; /*64px */
 /*24px h2 tag */
 /* 32px */
 /* 36px */
-/* 40px  h1 tag* /
-$font-size-7xl: 4rem; /*64px */
+/*64px */
 .ink-blue {
   color: #00244e;
 }
@@ -82,8 +80,7 @@ $font-size-7xl: 4rem; /*64px */
 /*24px h2 tag */
 /* 32px */
 /* 36px */
-/* 40px  h1 tag* /
-$font-size-7xl: 4rem; /*64px */
+/*64px */
 .btn {
   padding: 0.6rem 0.9rem;
   border-radius: 3px;
@@ -161,15 +158,10 @@ $font-size-7xl: 4rem; /*64px */
 /*24px h2 tag */
 /* 32px */
 /* 36px */
-/* 40px  h1 tag* /
-$font-size-7xl: 4rem; /*64px */
-section {
-  margin: 5rem 0 5rem 0;
-}
-
+/*64px */
 h1 {
   color: #0a3370;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
   font-family: "Oswald", sans-serif;
 }
@@ -178,7 +170,7 @@ h2 {
   margin-bottom: 1.5rem;
   color: #00244e;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -226,19 +218,13 @@ a {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 576px) {
-  section {
-    margin: 2.5rem 0 2.5rem 0;
-  }
-}
 /* Font size */
 /* 18px */
 /*20 px*/
 /*24px h2 tag */
 /* 32px */
 /* 36px */
-/* 40px  h1 tag* /
-$font-size-7xl: 4rem; /*64px */
+/*64px */
 .card-header {
   font-size: 1.25rem;
   font-weight: 700;
@@ -320,15 +306,10 @@ footer.mobile {
 /*24px h2 tag */
 /* 32px */
 /* 36px */
-/* 40px  h1 tag* /
-$font-size-7xl: 4rem; /*64px */
-section {
-  margin: 5rem 0 5rem 0;
-}
-
+/*64px */
 h1 {
   color: #0a3370;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
   font-family: "Oswald", sans-serif;
 }
@@ -337,7 +318,7 @@ h2 {
   margin-bottom: 1.5rem;
   color: #00244e;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -385,11 +366,62 @@ a {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 576px) {
-  section {
-    margin: 2.5rem 0 2.5rem 0;
-  }
-}
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.hero-section {
+  background-color: #F3F3F3;
+  background-image: url(https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/38983517-a09c-4ab7-9438-cf956430bb17.png);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40rem;
+}
+
+.span-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 179%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+
+.banner-img {
+  height: 100px;
+}
+
+img.checklist {
+  width: 22rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.info-wrapper {
+  border: 2px #efefef solid;
+}
+
+.get-in-touch {
+  background: rgb(0, 36, 78);
+  background: linear-gradient(270deg, rgb(0, 36, 78) 10%, rgba(0, 85, 154, 0.9822303922) 66%);
+}
+
+.primary-link {
+  color: #fdb913;
+  font-weight: 400 !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .hero-section {
+    background-color: #00244e;
+    background-image: none;
+    height: 45rem;
+  }
+  .content {
+    margin-top: 8rem;
+  }
 }/*# sourceMappingURL=style.css.map */
