@@ -171,7 +171,7 @@ ENDIF
     </div>
   </section>
 
-  <section class="content">
+  <section class="content pb-5" style="background-color: #F3F3F3;">
     <div class="container">
       <div class="row">
         <p><strong>
@@ -182,7 +182,7 @@ ENDIF
         </p>
       </div>
 
-      <div class="row info-wrapper mt-5 p-4 d-flex align-items-center justify-content-center">
+      <div class="row info-wrapper mt-5 py-5  d-flex align-items-center justify-content-center" style="background-color: #fff;">
 
         <div class="col-md-2 d-flex justify-content-start justify-content-md-center">
 
@@ -203,10 +203,11 @@ ENDIF
           </p>
         </div>
 
-        <div class="col-md-2 d-flex align-items-center justify-content-end">
+        <div class="col-md-2 d-flex align-items-center justify-content-start">
           <!-- %%[IF @imgURL == 'https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/a75e8199-6d37-46eb-b893-3a7d7b67dad4.png'
 THEN]%%-->
-          <h3 class="text-center">%%=v(@DateHeader)=%% <br> %%=FormatDate(@DateRec, "MMM dd"","" YYYY")=%%</h3>
+          <!-- <h3 class="text-center">%%=v(@DateHeader)=%% <br> %%=FormatDate(@DateRec, "MMM dd"","" YYYY")=%%</h3> -->
+          <h3 class="text-center">Completed on  <br> Feb, 3 2025</h3>
           <!-- %%[ELSEIF (@DateRec == '' or @DateRec IS NULL) AND @waived != "true" THEN]%%--><!--%%[ELSE]%%-->
           
           <!--%%[ENDIF]%%-->
@@ -217,7 +218,7 @@ THEN]%%-->
   </section>
 
   
-  <section class="get-in-touch mt-5">
+  <section class="get-in-touch " style="background-color: #F3F3F3;">
     <div class="container">
       <div class="row">
         <div class="col-md-6" style="align-content: center;">

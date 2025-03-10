@@ -368,6 +368,7 @@ a {
 
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  background-color: #f3f3f3;
   word-break: break-word;
 }
 
@@ -403,7 +404,7 @@ img.checklist {
 }
 
 .info-wrapper {
-  border: 2px #efefef solid;
+  border: 2px #DFDFDF solid;
 }
 
 .get-in-touch {
