@@ -368,6 +368,7 @@ a {
 
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  word-break: break-word;
 }
 
 .hero-section {
@@ -423,5 +424,8 @@ img.checklist {
   }
   .content {
     margin-top: 8rem;
+  }
+  .get-in-touch {
+    padding: 2rem;
   }
 }/*# sourceMappingURL=style.css.map */
