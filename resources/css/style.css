@@ -378,7 +378,7 @@ body {
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 40rem;
+  height: 43rem;
 }
 
 .span-text {
@@ -428,5 +428,30 @@ img.checklist {
   }
   .get-in-touch {
     padding: 2rem;
+  }
+}
+@media only screen and (min-width: 375px) {
+  img.checklist {
+    transform: translate(-50%, 20%);
+  }
+}
+@media only screen and (min-width: 1024px) {
+  img.checklist {
+    transform: translate(-50%, 44%);
+  }
+}
+@media only screen and (min-width: 1445px) {
+  img.checklist {
+    transform: translate(-50%, 60%);
+  }
+}
+@media only screen and (min-width: 1680px) {
+  img.checklist {
+    transform: translate(-50%, 50%);
+  }
+}
+@media only screen and (min-width: 1920px) {
+  img.checklist {
+    transform: translate(-50%, 0);
   }
 }/*# sourceMappingURL=style.css.map */
