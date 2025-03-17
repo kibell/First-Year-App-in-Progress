@@ -402,7 +402,8 @@ img.checklist {
   left: 50%;
   bottom: 10%;
   transform: translateX(-50%);
-  max-width: 25%;
+  width: 25%;
+  max-width: 500px;
   height: auto;
 }
 
